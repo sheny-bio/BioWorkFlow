@@ -1,0 +1,4 @@
+# 最出事的config文件，用于确定一些固定目录
+
+d_database: /dssg/home/sheny/MyProject/BioWorkFlow/data
+d_genome: /dssg/home/sheny/MyProject/BioWorkFlow/data/GENOME
