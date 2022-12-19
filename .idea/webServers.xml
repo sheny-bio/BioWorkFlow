@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="23ea1aa5-cd6d-452c-96af-0613c248cb9c" name="世和dssg">
+        <fileTransfer rootFolder="/dssg/home/sheny/MyProject/BioWorkFlow" accessType="SFTP" host="10.1.2.171" port="22" sshConfigId="c8442478-8b6c-4ece-9409-05a4dadd7a3f" sshConfig="sheny@10.1.2.171:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

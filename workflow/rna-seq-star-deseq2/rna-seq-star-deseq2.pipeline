@@ -1,0 +1,22 @@
+"""  RNA差异表达分析流程
+
+分析前准备：
+
+
+"""
+
+
+from snakemake.utils import min_version
+
+
+min_version("6.4.1")
+
+
+include: "./rules/common.smk"
+include: "./rules/merge.smk"
+# include: "./rules/rna-seq-star-deseq2/trim.smk"
+
+rule all:
+    input:
+        expand("Results/{sample}/MergeFastq/{sample}_R1.fastq.gz", sample=df_samples["SampleID"]),
+        expand("Results/{sample}/MergeFastq/{sample}_R2.fastq.gz", sample=df_samples["SampleID"])

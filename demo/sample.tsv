@@ -1,3 +1,13 @@
-sample_name	condition
-A	untreated
-B	treated
+SampleID	Sex	Population
+ERR188245	female	GBR
+ERR188428	female	GBR
+ERR188337	female	GBR
+ERR188401	male	GBR
+ERR188257	male	GBR
+ERR188383	male	GBR
+ERR204916	female	YRI
+ERR188234	female	YRI
+ERR188273	female	YRI
+ERR188454	male	YRI
+ERR188104	male	YRI
+ERR188044	male	YRI

@@ -1,0 +1,1 @@
+snakemake --nolock  --directory ./demo/rna_transcript_express_analyze --snakefile workflow/rna-seq-star-deseq2/rna-seq-star-deseq2.pipeline --use-conda -j 99 -p --conda-prefix /dssg/home/sheny/MyProject/BioWorkFlow/conda_env
